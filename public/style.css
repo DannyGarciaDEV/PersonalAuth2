@@ -1,0 +1,93 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: pink;
+  text-shadow: 3px 2px 2px rgb(236, 195, 195);
+  border-bottom: 2px solid black;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(22, 2, 5);
+  text-shadow: 3px 2px 2px rgb(236, 195, 195);
+  border-bottom: 2px solid black;
+  align-self: center;
+  display: flex;
+}
+
+.video-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.video-item {
+  position: relative;
+  width: calc(33.33% - 10px);
+  margin-bottom: 100px;
+}
+
+.video-player {
+ 
+  width: 100%;
+  height: auto;
+  height:100%;
+}
+
+input[type="text"], button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #e566da;
+  background-color: #efbfde;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, button:hover {
+  background-color: #181616;
+}
+
+span{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(250, 88, 115);
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+}
+
+.containere {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column-left,
+.column-right {
+  width: 48%;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+}
